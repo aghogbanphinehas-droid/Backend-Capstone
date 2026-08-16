@@ -1,3 +1,4 @@
+from decouple import config
 """
 Django settings for fashion_ecommerce_api project.
 
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'store',
     'orders',
     'drf_spectacular',
+    'Paystack',
 ]
 
 
@@ -181,5 +183,8 @@ SPECTACULAR_SETTINGS = {
     ],
 }
 
+
+import os
 # Paystack Payment Gateway
 PAYSTACK_SECRET_KEY = 'sk_test_5548d57b9eb9367a293ae063ca263ff34cd7c564'
+PAYSTACK_PUBLIC_KEY = 'pk_test_8426e85f1a9b05948dcd9ee49b9afe41a7d1da0b'
