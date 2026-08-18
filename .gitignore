@@ -1,0 +1,62 @@
+(# Python related)
+__pycache__/
+*.py[cod]
+*$py.class
+
+(# Virtual environments)
+venv/
+.venv/
+env/
+myenv/
+
+(# Environment / secrets files)
+.env
+.env.*
+env.local
+secrets.json
+credentials.json
+config.ini
+settings_local.py
+local_settings.py
+
+(# Key / cert files)
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+(# Database files)
+db.sqlite3
+*.sqlite3
+
+(# IDE / Editor settings)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+(# OS files)
+.DS_Store
+Thumbs.db
+
+(# Logs and reports)
+*.log
+.coverage
+coverage.xml
+
+(# Django media uploads)
+media/
+
+(# Build / distribution)
+build/
+dist/
+*.egg-info/
+
+(# Misc)
+*.envrc
+npm-debug.log
+yarn-error.log
+
+
+fashion_ecommerce_api/PAYSTACK_SECRET_KEY=sk_test_5548d57.txt
